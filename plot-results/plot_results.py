@@ -13,8 +13,6 @@ import time
 def parse_timestamp(date_string):
   return datetime.datetime.fromtimestamp(time.mktime(time.strptime(date_string, '%Y-%m-%d %H:%M:%S')))
 
-# setname = 'alfashir1_B12.csv'
-email = 'ajaypillarisetti@gmail.com'
 filename = 'sumsarized.csv'
 outdir = 'data/out'
 
